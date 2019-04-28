@@ -55,8 +55,6 @@ fun s:open(source, strict)
 		if a:strict
 			echoerr 'Not an url: ' . l:maybe_url
 			return
-		else
-			let l:maybe_url = 'http://' . l:maybe_url
 		endif
 	endif
 
